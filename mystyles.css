@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2{
+  color: rgb(248, 238, 238);
+}
+.meet-our-team-header{
+  color: black;
+}
+.spcp{
+  color:black;
+}
+p{
+  color: purple;
+}
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.company-info {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.purple-box {
+  display: inline-block;
+  padding: 0px 10px;
+  background-color: rgb(154, 177, 243);
+  border-radius: 10px;
+  
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  margin: 10px;
+  flex: 1 0 30%; 
+}
+
+.team-member img {
+  width: 100px; /* Adjust the size as needed */
+  border-radius: 50%;
+}
+.team-members :nth-child(-n+2) {
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.purple-dotted-line {
+  border-top: 2px dotted black;
+  margin: 20px auto;
+}
+.meet-our-team-header {
+  text-align: center;
+  margin: 50px 0;
+}
+.team-section-container {
+  position: relative;
+  text-align: center;
+}
+.team-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+}
+
+.left-shape {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  transform: translateX(-50%);
+  background-color: rgb(154, 177, 243);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  transform: rotate(-90deg);  
+}
+
+.right-shape {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(-50%);
+  background-color: rgb(154, 177, 243);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  transform: rotate(90deg);  
+}
